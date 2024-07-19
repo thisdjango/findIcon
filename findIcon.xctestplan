@@ -1,0 +1,35 @@
+{
+  "configurations" : [
+    {
+      "id" : "FB5AFAEB-672D-4342-A2B5-23CE4942AEA7",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:findIcon.xcodeproj",
+      "identifier" : "57A397D22C315D3A007889D6",
+      "name" : "findIcon"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:findIcon.xcodeproj",
+        "identifier" : "57D5DA7E2C46E17900EC3A97",
+        "name" : "findIconTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:findIcon.xcodeproj",
+        "identifier" : "57A3EEB72C4ACE50007DCB19",
+        "name" : "findIconUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
