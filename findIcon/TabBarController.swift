@@ -20,7 +20,7 @@ class TabBarController: UITabBarController {
         secondViewController.tabBarItem.title = .favTitle
         secondViewController.tabBarItem.image = .heart
 
-        view.backgroundColor = .white
+        view.backgroundColor = .systemBackground
         tabBar.isTranslucent = false
         tabBar.barTintColor = .lightGray.withAlphaComponent(0.3)
         viewControllers = [firstViewController, secondViewController]

@@ -17,7 +17,6 @@ class SearchViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
         setup()
         layout()
         searchAction()
@@ -62,7 +61,6 @@ class SearchViewController: UIViewController {
         textField.placeholder = .findIcon
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.borderStyle = .roundedRect
-        textField.backgroundColor = .lightGray.withAlphaComponent(0.5)
         textField.layoutMargins = UIEdgeInsets(top: 4, left: 8, bottom: 4, right: 8)
     }
 
